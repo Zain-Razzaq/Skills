@@ -1,0 +1,19 @@
+{
+  "name": "motionize",
+  "version": "0.1.0",
+  "description": "Turn the current project or a website into a short, polished, shareable launch video.",
+  "license": "MIT",
+  "keywords": ["video", "launch", "motion", "skill"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Motionize Skill",
+    "shortDescription": "Turn your project into a polished launch video.",
+    "longDescription": "Create a short, shareable launch video from a project or website, complete with a tailored story, motion, music, sound effects, poster frame, and share copy.",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write", "Execute"],
+    "defaultPrompt": [
+      "Motionize this project.",
+      "Make a polished launch video for this project."
+    ]
+  }
+}

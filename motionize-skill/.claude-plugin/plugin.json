@@ -1,0 +1,7 @@
+{
+  "name": "motionize",
+  "description": "Turn the current project or a website into a short, polished, shareable launch video.",
+  "version": "0.1.0",
+  "license": "MIT",
+  "keywords": ["video", "launch", "motion", "skill"]
+}

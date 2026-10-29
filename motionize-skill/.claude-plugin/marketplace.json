@@ -1,0 +1,14 @@
+{
+  "name": "motionize",
+  "description": "Turn the project you just shipped into a short, shareable launch video with one command.",
+  "owner": {
+    "name": "Collective"
+  },
+  "plugins": [
+    {
+      "name": "motionize",
+      "source": "./",
+      "description": "Turn the current project or a website into a short, polished, shareable launch video."
+    }
+  ]
+}

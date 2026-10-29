@@ -1,0 +1,19 @@
+{
+  "name": "app-guardian",
+  "version": "0.1.0",
+  "description": "Security guardrails for vibe coders: hashed passwords, JWT + refresh tokens in cookies, HTTPS, rate limits on every endpoint, zero secrets in code, and more.",
+  "license": "MIT",
+  "keywords": ["security", "auth", "jwt", "rate-limit", "secrets", "skill"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "App Guardian",
+    "shortDescription": "Build apps with security baselines enforced by default.",
+    "longDescription": "Makes your coding agent write secure-by-default apps: Argon2id password hashing, short-lived JWTs with rotating refresh tokens in HttpOnly cookies, HTTPS/HSTS, rate limits on every endpoint, input validation, authorization checks, and zero secrets in code. Ends every task with a security report.",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write", "Execute"],
+    "defaultPrompt": [
+      "Add secure login to this app.",
+      "Audit this project against the security guardrails."
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "app-guardian",
+  "description": "Security guardrails for vibe coders: hashed passwords, JWT + refresh tokens in cookies, HTTPS, rate limits on every endpoint, zero secrets in code, and more.",
+  "version": "0.1.0",
+  "license": "MIT",
+  "keywords": ["security", "auth", "jwt", "rate-limit", "secrets", "skill"]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "app-guardian",
+  "description": "Mandatory security baselines for AI-assisted app development.",
+  "owner": {
+    "name": "Collective"
+  },
+  "plugins": [
+    {
+      "name": "app-guardian",
+      "source": "./",
+      "description": "Enforces security baselines while building apps: password hashing, cookie-based JWT sessions with refresh rotation, HTTPS, rate limiting, input validation, authorization, and secrets hygiene."
+    }
+  ]
+}
