@@ -1,0 +1,19 @@
+{
+  "name": "brand-identity",
+  "version": "1.4.5",
+  "description": "Design, critique and deliver professional logos and brand identities: brief, concepts, SVG construction, testing, presentation and brand guidelines, with a searchable library of 1,400+ classified SVG logos.",
+  "license": "MIT",
+  "keywords": ["logo", "branding", "identity", "svg", "design", "skill"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Brand Identity",
+    "shortDescription": "Design logos and brand identities, from brief to production SVGs and guidelines.",
+    "longDescription": "Turns your agent into a disciplined identity designer: discovery brief, concept generation, geometric SVG construction, optical refinement, colour and typography, size and one-colour testing, client presentation boards, favicon and app-icon export, and brand guidelines. Backed by a searchable library of 1,400+ classified reference logos and dependency-free Python tools.",
+    "category": "Design",
+    "capabilities": ["Read", "Write", "Execute"],
+    "defaultPrompt": [
+      "Design a logo for my new app.",
+      "Critique this logo and suggest a refresh."
+    ]
+  }
+}
